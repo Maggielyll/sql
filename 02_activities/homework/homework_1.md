@@ -1,5 +1,10 @@
 # Homework 1: farmersmarket.db
 
+![image](https://github.com/user-attachments/assets/f47047a9-602b-4428-970f-14d1db4e3f5f)
+![image](https://github.com/user-attachments/assets/f47047a9-602b-4428-970f-14d1db4e3f5f)
+![image](https://github.com/user-attachments/assets/f47047a9-602b-4428-970f-14d1db4e3f5f)
+
+
 - Due on Thursday, September 12 at 11:59pm
 - Weight: 8% of total grade
 
