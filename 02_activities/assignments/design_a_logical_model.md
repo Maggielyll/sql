@@ -5,8 +5,14 @@ Create a logical model for a small bookstore. 📚
 
 At the minimum it should have employee, order, sales, customer, and book entities (tables). Determine sensible column and table design based on what you know about these concepts. Keep it simple, but work out sensible relationships to keep tables reasonably sized. Include a date table. There are several tools online you can use, I'd recommend [_Draw.io_](https://www.drawio.com/) or [_LucidChart_](https://www.lucidchart.com/pages/).
 
+![SQL Assignment_Q1](https://github.com/user-attachments/assets/0c5c3d78-a326-4356-bfce-f35a1ab244df)
+
+
 ## Question 2
 We want to create employee shifts, splitting up the day into morning and evening. Add this to the ERD.
+
+![SQL Assignment_Q2](https://github.com/user-attachments/assets/97144f55-6550-4957-a344-5bfce16c481a)
+
 
 ## Question 3
 The store wants to keep customer addresses. Propose two architectures for the CUSTOMER_ADDRESS table, one that will retain changes, and another that will overwrite. Which is type 1, which is type 2?
@@ -18,6 +24,12 @@ Bonus: Are there privacy implications to this, why or why not?
 Your answer...
 ```
 
+Type 1 is the overwrite option. It overwrite the customer’s old address with the new one, and it doesn’t keep a record of past addresses.
+Type 2 is the retain changes option. It keeps all past addresses. Therefore, each time the customer updates their address, it will add a new row with the new address, while still keeping the old ones. 
+Privacy Concerns
+Type 2 might have privacy issues because it stores old addresses, which may not be necessary. Type 1 is safer since it only keeps the current address.
+
+
 ## Question 4
 Review the AdventureWorks Schema [here](https://i.stack.imgur.com/LMu4W.gif)
 
@@ -25,6 +37,9 @@ Highlight at least two differences between it and your ERD. Would you change any
 ```
 Your answer...
 ```
+The given ERD listed the foreign keys and primary keys but I did not.
+Also, the given ERD is much more complex as I designed, even the number of attributes within a table.
+
 
 # Criteria
 
